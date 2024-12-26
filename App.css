@@ -1,0 +1,50 @@
+/* App.css (Global styles for the entire page) */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #1E2A38, #1C3D5A); /* Dark blue gradient */
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Add a sporty background image */
+.home-container {
+  background: url('https://www.example.com/sport-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  padding: 40px 0;
+  color: white;
+  min-height: 100vh;
+}
+
+/* Text effects for headings */
+h1, h2, h3 {
+  font-family: 'Impact', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Button Styles */
+button {
+  background-color: #E71D36; /* Bold red for action */
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #FF5733;
+}
+
+/* A section with background color */
+.section {
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin-bottom: 30px;
+}

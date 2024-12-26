@@ -1,0 +1,50 @@
+/* JobApplicationForm.css */
+.job-application-form {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 15px;
+  margin: 20px auto;
+  max-width: 600px;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input, textarea {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #FF5733;
+  background-color: #1C3D5A;
+  color: white;
+}
+
+input[type="file"] {
+  background-color: transparent;
+  color: white;
+}
+
+button {
+  padding: 15px;
+  font-size: 16px;
+  background-color: #E71D36;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #FF5733;
+}
+
+.confirmation-message {
+  font-size: 18px;
+  text-align: center;
+  color: #28a745;
+}

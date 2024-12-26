@@ -1,0 +1,39 @@
+.payment-receipt-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #2ecc71;
+}
+
+.payment-details {
+  margin-top: 20px;
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+.payment-details p {
+  margin: 10px 0;
+}
+
+.download-receipt-btn {
+  padding: 12px 30px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.download-receipt-btn:hover {
+  background-color: #2980b9;
+}

@@ -1,0 +1,76 @@
+.online-meeting-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.start-meeting-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.room-name-input {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+}
+
+.start-meeting-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.start-meeting-button:hover {
+  background-color: #0056b3;
+}
+
+.meeting-room {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.meeting-screen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.meeting-controls {
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+.end-meeting-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.end-meeting-button:hover {
+  background-color: #a71d2a;
+}
